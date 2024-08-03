@@ -1,5 +1,5 @@
 provider "aws" {
-    region = "eu-west-1"
+  region = "eu-west-1"
 }
 
 # Retrieve IAM policy documents for assuming roles.  This is used to feed exclusive inline policies.
