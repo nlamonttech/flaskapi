@@ -10,4 +10,4 @@ COPY --from=builder /src/ .
 ENV PATH=/root/.local:$PATH
 EXPOSE 5000
 
-CMD["python3", "app.py"]
+CMD ["python3", "app.py"]
